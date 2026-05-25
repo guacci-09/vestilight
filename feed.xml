@@ -3,12 +3,76 @@
     <title>殘光：Vestilight</title>
     <link href="https://vestilight.vercel.app/feed.xml" rel="self" />
     <link href="https://vestilight.vercel.app" />
-    <updated>2026-05-23T14:11:00+08:00</updated>
+    <updated>2026-05-25T17:27:26+08:00</updated>
     <author>
         <name>guacci</name>
     </author>
     <id>https://vestilight.vercel.app</id>
 
+    <entry>
+        <title>chara test</title>
+        <author>
+            <name>guacci</name>
+        </author>
+        <link href="https://vestilight.vercel.app/archives/chara-test/"/>
+        <id>https://vestilight.vercel.app/archives/chara-test/</id>
+
+        <updated>2026-05-25T17:27:26+08:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    『海面』時期 『月夜』時期 全名： 角色 A 初登場身份： 請在此處輸入海面時期的基本資訊一 公開所屬： 請在此處輸入海面時期的基本資訊二 立場狀態：&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div class="timeline-char-container"><input type="radio" id="tab-stage1" name="char-stage" checked="checked"> <input type="radio" id="tab-stage2" name="char-stage">
+<div class="timeline-tabs"><label class="tab-btn" for="tab-stage1">『海面』時期</label> <label class="tab-btn" for="tab-stage2">『月夜』時期</label></div>
+<div class="char-main-layout">
+<div class="char-illustration-column">
+<div class="char-img-wrapper img-stage1"><figure class="vl-main-img"><img loading="lazy"  src="https://images.plurk.com/6qRg8ob0HxFXSMpq7eLlru.png" alt="角色A - 海面時期立繪" data-is-external-image="true"></figure></div>
+<div class="char-img-wrapper img-stage2"><figure class="vl-main-img"><img loading="lazy"  src="https://images.plurk.com/4Gmnbvw6qhwUCvB2ayBuK5.png" alt="角色A - 月夜時期立繪" data-is-external-image="true"></figure></div>
+</div>
+<div class="char-info-column">
+<div class="stage-content content-stage1">
+<div class="char-meta-panel">
+<p><strong>全名：</strong> 角色 A</p>
+<p><strong>初登場身份：</strong> 請在此處輸入海面時期的基本資訊一</p>
+<p><strong>公開所屬：</strong> 請在此處輸入海面時期的基本資訊二</p>
+<p><strong>立場狀態：</strong> 請在此處輸入海面時期的基本資訊三</p>
+</div>
+<div class="char-detailed-desc">
+<h3>時期概要</h3>
+<p>請在此處輸入海面時期的概要描述段落。</p>
+<h3>背景故事</h3>
+<p>請在此處輸入海面時期的背景故事詳細內文，可用多個段落延伸。</p>
+</div>
+</div>
+<div class="stage-content content-stage2">
+<div class="char-meta-panel">
+<p><strong>全名：</strong> 角色 A（新狀態）</p>
+<p><strong>當前身份：</strong> 請在此處輸入月夜時期的基本資訊一</p>
+<p><strong>真實所屬：</strong> 請在此處輸入月夜時期的基本資訊二</p>
+<p><strong>立場狀態：</strong> 請在此處輸入月夜時期的基本資訊三</p>
+</div>
+<div class="char-detailed-desc">
+<h3>時期概要</h3>
+<p>請在此處輸入月夜時期的概要描述段落。</p>
+<h3>背景故事</h3>
+<p>請在此處輸入月夜時期的背景故事詳細內文，完全與前期獨立。</p>
+</div>
+</div>
+</div>
+</div>
+<details class="spoiler-details">
+<summary class="spoiler-summary">展開檢視核心劇透與殘光卷宗</summary>
+<div class="spoiler-content">
+<p><strong>【核心機密查閱】</strong></p>
+<p>請在此處輸入該角色的核心劇透、隱藏真相、或是結局命運。此處內容不會隨著上方切換按鈕而更動，屬於全階段通用的折疊區。</p>
+</div>
+</details></div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>海浪</title>
         <author>

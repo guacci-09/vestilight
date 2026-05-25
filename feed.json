@@ -11,6 +11,20 @@
     },
     "items": [
         {
+            "id": "https://vestilight.vercel.app/archives/chara-test/",
+            "url": "https://vestilight.vercel.app/archives/chara-test/",
+            "title": "chara test",
+            "summary": "『海面』時期 『月夜』時期 全名： 角色 A 初登場身份： 請在此處輸入海面時期的基本資訊一 公開所屬： 請在此處輸入海面時期的基本資訊二 立場狀態：&hellip;",
+            "content_html": "<div class=\"timeline-char-container\"><input type=\"radio\" id=\"tab-stage1\" name=\"char-stage\" checked=\"checked\"> <input type=\"radio\" id=\"tab-stage2\" name=\"char-stage\">\n<div class=\"timeline-tabs\"><label class=\"tab-btn\" for=\"tab-stage1\">『海面』時期</label> <label class=\"tab-btn\" for=\"tab-stage2\">『月夜』時期</label></div>\n<div class=\"char-main-layout\">\n<div class=\"char-illustration-column\">\n<div class=\"char-img-wrapper img-stage1\"><figure class=\"vl-main-img\"><img loading=\"lazy\"  src=\"https://images.plurk.com/6qRg8ob0HxFXSMpq7eLlru.png\" alt=\"角色A - 海面時期立繪\" data-is-external-image=\"true\"></figure></div>\n<div class=\"char-img-wrapper img-stage2\"><figure class=\"vl-main-img\"><img loading=\"lazy\"  src=\"https://images.plurk.com/4Gmnbvw6qhwUCvB2ayBuK5.png\" alt=\"角色A - 月夜時期立繪\" data-is-external-image=\"true\"></figure></div>\n</div>\n<div class=\"char-info-column\">\n<div class=\"stage-content content-stage1\">\n<div class=\"char-meta-panel\">\n<p><strong>全名：</strong> 角色 A</p>\n<p><strong>初登場身份：</strong> 請在此處輸入海面時期的基本資訊一</p>\n<p><strong>公開所屬：</strong> 請在此處輸入海面時期的基本資訊二</p>\n<p><strong>立場狀態：</strong> 請在此處輸入海面時期的基本資訊三</p>\n</div>\n<div class=\"char-detailed-desc\">\n<h3>時期概要</h3>\n<p>請在此處輸入海面時期的概要描述段落。</p>\n<h3>背景故事</h3>\n<p>請在此處輸入海面時期的背景故事詳細內文，可用多個段落延伸。</p>\n</div>\n</div>\n<div class=\"stage-content content-stage2\">\n<div class=\"char-meta-panel\">\n<p><strong>全名：</strong> 角色 A（新狀態）</p>\n<p><strong>當前身份：</strong> 請在此處輸入月夜時期的基本資訊一</p>\n<p><strong>真實所屬：</strong> 請在此處輸入月夜時期的基本資訊二</p>\n<p><strong>立場狀態：</strong> 請在此處輸入月夜時期的基本資訊三</p>\n</div>\n<div class=\"char-detailed-desc\">\n<h3>時期概要</h3>\n<p>請在此處輸入月夜時期的概要描述段落。</p>\n<h3>背景故事</h3>\n<p>請在此處輸入月夜時期的背景故事詳細內文，完全與前期獨立。</p>\n</div>\n</div>\n</div>\n</div>\n<details class=\"spoiler-details\">\n<summary class=\"spoiler-summary\">展開檢視核心劇透與殘光卷宗</summary>\n<div class=\"spoiler-content\">\n<p><strong>【核心機密查閱】</strong></p>\n<p>請在此處輸入該角色的核心劇透、隱藏真相、或是結局命運。此處內容不會隨著上方切換按鈕而更動，屬於全階段通用的折疊區。</p>\n</div>\n</details></div>",
+            "author": {
+                "name": "guacci"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-05-25T17:27:26+08:00",
+            "date_modified": "2026-05-25T17:27:26+08:00"
+        },
+        {
             "id": "https://vestilight.vercel.app/archives/hai-lang/",
             "url": "https://vestilight.vercel.app/archives/hai-lang/",
             "title": "海浪",
