@@ -3,7 +3,7 @@
     <title>殘光：Vestilight</title>
     <link href="https://vestilight.vercel.app/feed.xml" rel="self" />
     <link href="https://vestilight.vercel.app" />
-    <updated>2026-05-25T19:35:45+08:00</updated>
+    <updated>2026-05-25T20:12:28+08:00</updated>
     <author>
         <name>guacci</name>
     </author>
@@ -128,7 +128,7 @@
         <updated>2026-05-20T09:49:13+08:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Edit Log 2026/5/19 整體完成 2026/5/20 新增大中小標題顏色、新增紀年頁面、搬移到vercel 2026/5/25 各種超連結跟圖片作者
+                    Edit Log 2026/5/19 整體完成 2026/5/20 新增大中小標題顏色、新增紀年頁面、搬移到vercel 2026/5/25 各種超連結跟圖片作者、瀏覽器分頁icon
                 ]]>
             </summary>
         <content type="html">
@@ -136,7 +136,7 @@
                 <h4>Edit Log</h4>
 <p>2026/5/19 整體完成</p>
 <p>2026/5/20 新增大中小標題顏色、新增紀年頁面、搬移到vercel</p>
-<p>2026/5/25 各種超連結跟圖片作者</p>
+<p>2026/5/25 各種超連結跟圖片作者、瀏覽器分頁icon</p>
             ]]>
         </content>
     </entry>
