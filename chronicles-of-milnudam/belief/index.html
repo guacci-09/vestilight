@@ -56,13 +56,32 @@ function initManualStoryFilter() {
 }
 
 // ---------------------------------
-// [自動化引擎 B] 角色列表雙軌收割
+// ---------------------------------
+// [自動化引擎 B] 角色列表雙軌收割 (長官自主排序版)
 // ---------------------------------
 function initCharFilter() {
     if (!document.getElementById('character-flag')) return;
     const filterContainer = document.getElementById('char-dynamic-filter-container');
     const charItems = document.querySelectorAll('.char-item'); 
     if (!filterContainer || charItems.length === 0) return;
+
+    // 🌟 【作戰指揮部：在此處自由決定您的標籤排序】
+    // 越排在前面的字詞，網頁上的按鈕就會越靠左、越先顯示！
+    const customFactionOrder = [
+    	"帝國", 
+        "聯合王國", 
+        "法卡勒斯",
+    	"塞爾雷提斯", 
+    	"風鈴聯邦", 
+    	"天空之塔", 
+        "圖茲卡爾", 
+    	"瑟普熙雷伊"
+    ];
+
+    const customChapterOrder = [
+        "海面", 
+        "月夜"
+    ];
 
     let uniqueFactions = new Set();
     let uniqueChapters = new Set();
@@ -74,20 +93,36 @@ function initCharFilter() {
         if (chapterStr) chapterStr.split(',').forEach(t => { if(t.trim()) uniqueChapters.add(t.trim()); });
     });
 
+    // 排序核心大腦：對照清單進行物理權重比對
+    const sortTags = (setArray, orderList) => {
+        return setArray.sort((a, b) => {
+            let indexA = orderList.indexOf(a);
+            let indexB = orderList.indexOf(b);
+            // 如果不在清單內，就丟到最後面
+            if (indexA === -1) indexA = 999;
+            if (indexB === -1) indexB = 999;
+            if (indexA !== indexB) return indexA - indexB;
+            return a.localeCompare(b, 'zh-Hant'); // 如果都沒在清單內，則按預設中文字典排序
+        });
+    };
+
+    const sortedFactions = sortTags(Array.from(uniqueFactions), customFactionOrder);
+    const sortedChapters = sortTags(Array.from(uniqueChapters), customChapterOrder);
+
     let html = '';
-    if (uniqueFactions.size > 0) {
+    if (sortedFactions.length > 0) {
         html += '<div class="filter-group" style="margin-bottom: 15px;">';
         html += '<span class="filter-label">關聯勢力：</span>';
         html += '<button class="char-filter-btn active" data-filter="all">全部</button>';
-        Array.from(uniqueFactions).sort().forEach(tag => {
+        sortedFactions.forEach(tag => {
             html += `<button class="char-filter-btn" data-filter="${tag}" data-type="faction">${tag}</button>`;
         });
         html += '</div>';
     }
-    if (uniqueChapters.size > 0) {
+    if (sortedChapters.length > 0) {
         html += '<div class="filter-group">';
         html += '<span class="filter-label">出場篇章：</span>';
-        Array.from(uniqueChapters).sort().forEach(tag => {
+        sortedChapters.forEach(tag => {
             html += `<button class="char-filter-btn" data-filter="${tag}" data-type="chapter">${tag}</button>`;
         });
         html += '</div>';
